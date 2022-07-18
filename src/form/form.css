@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fascinate&family=League+Gothic&family=Nunito&family=Poppins&family=Roboto&family=Titan+One&display=swap");
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins, sans-serif;
+}
+.form-content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  background-image: url(../Images/warm-bg.jpg),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: bottom;
+  padding: 30px 30px 60px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgb(238, 84, 84);
+}
+.main-content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  background-image: url(../Images/cold-bg.jpg),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: bottom;
+  padding: 30px 30 60px 30px;
+  box-shadow: 0px 0px 4px 0px white;
+}
+input {
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+input:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1em; */
+}
+.Info h1 {
+  font-size: 1.4em;
+  color: rgb(255, 255, 255, 0.9);
+  letter-spacing: 1px;
+}
+.Info h3 {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-top: -2px;
+  color: rgb(255, 255, 255, 0.8);
+}
+.temp {
+  padding: 20px 15px;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.3);
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
+}
+.desc {
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+}
+.tempprop {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+.tempprop img {
+  width: 30px;
+  margin-bottom: 5px;
+  filter: brightness(80%);
+}
+.tempprop p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prop {
+  display: flex;
+  flex-direction: column;
+}
+.prop {
+  font-size: 1.4em;
+  color: rgb(255, 255, 255, 0.6);
+}
+.sprop {
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255, 0.9);
+}
+img {
+  width: 80px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.wind {
+  color: white;
+}
